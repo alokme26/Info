@@ -7,6 +7,7 @@ public class Demo {
 		Employee e4=new Employee(4,"Aditi",15000);
 		Employee e5=new Employee(5,"Drshiti",60000);
 		Employee e6=new Employee(6,"Prashant",50000);
+		Employee e7=new Employee(6,"Bala",50500);
 		ArrayList<Employee>al=new ArrayList<Employee>();
 		al.add(e1);
 		al.add(e2);
@@ -14,6 +15,7 @@ public class Demo {
 		al.add(e4);
 		al.add(e5);
 		al.add(e6);
+		al.add(e7);
 		al.add(1,e5);
 		al.set(1,e6);
 		System.out.println(al);
